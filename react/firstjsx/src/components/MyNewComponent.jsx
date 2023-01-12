@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class mnc extends Component {
+class MyNewComponent extends Component {
   render() {
     return (
       <div>
@@ -14,8 +14,8 @@ class mnc extends Component {
           <li>Feed the dogs</li>
         </ul>
       </div>
-    )
+    );
   }
 }
 
-export default mnc;
+export default MyNewComponent;
