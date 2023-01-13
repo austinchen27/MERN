@@ -11,7 +11,7 @@ class PersonCard extends Component {
   render () {
     const increaseCount = () => {
       console.log("clicked");
-      this.setState({age : this.props.age + 1})
+      this.setState({age : this.state.age + 1})
     } 
 
     return (
