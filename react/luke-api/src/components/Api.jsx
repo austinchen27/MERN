@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router';
-import { useNavigate } from 'react-router-dom';
 
 const Api = (props) => {
   const [data, setData] = useState([]);
